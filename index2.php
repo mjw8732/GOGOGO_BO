@@ -1,7 +1,5 @@
 <?php
 
-
-ㄹㅗ로로
 include_once('./_common.php');
 
 define('_INDEX_', true);
