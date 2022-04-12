@@ -1,0 +1,30 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-2.1%" y="-8.9%" width="104.3%" height="117.8%" filterUnits="objectBoundingBox" id="8cwfqgwyra">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-24-1514h375V86H-24z"/>
+        <g font-size="14">
+            <text font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="bold" fill="#303030" transform="translate(0 -326)">
+                    <tspan x="0" y="358">20,000원 부터~</tspan>
+                </text>
+            <text font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo" fill="#979797" transform="translate(0 -326)">
+                    <tspan x="0" y="330">왕복항공, 전일정 숙박, 전일정 식사, 골프텔그린피 등</tspan>
+                </text>
+        </g>
+        <g transform="translate(-24 -4)" filter="url(#8cwfqgwyra)">
+            <path fill="#FFF" d="M0 0h375v56H0z"/>
+            <path stroke="silver" stroke-width="2" d="M46.32 12.32 40 9l-6.32 3.32V30h12.64z"/>
+            <path fill="silver" fill-rule="nonzero" d="M38.11 24.4h3.79V30h-3.79z"/>
+            <path stroke="silver" stroke-width="2" d="M28 20.05h5.68V30H28zM46.32 20.05H52V30h-5.68z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <circle fill="#979797" fill-rule="nonzero" cx="24" cy="24" r="24"/>
+        <text font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" letter-spacing=".5" fill="#FFF">
+                        <tspan x="8" y="32">URL</tspan>
+                    </text>
+    </g>
+</svg>

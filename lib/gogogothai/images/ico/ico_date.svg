@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-2.5%" y="-8.3%" width="105%" height="116.7%" filterUnits="objectBoundingBox" id="uxelo30j2a">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F4F4F4" d="M-728-80h1920v572H-728z"/>
+        <g filter="url(#uxelo30j2a)" transform="translate(-8 -56)">
+            <path fill="#FFF" d="M0 48h480v48H0z"/>
+            <g stroke="#303030">
+                <path d="M31.447 68.047 28.92 78.195a1.68 1.68 0 0 1-1.635 1.305H17.43a1.695 1.695 0 0 1-1.68-1.725c.002-.165.028-.33.075-.488l3.157-10.147a1.695 1.695 0 0 1 1.605-1.193h9.226c.679 0 1.291.408 1.552 1.035.147.336.176.711.082 1.066z" stroke-width="2"/>
+                <path d="M27 79.5h3.585a1.665 1.665 0 0 0 1.665-1.68.607.607 0 0 0 0-.12l-.75-10.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m22.26 67.763.78-3.233M27.285 67.77l.705-3.255M20.775 71.985h6M20.025 74.985h6"/>
+            </g>
+        </g>
+    </g>
+</svg>
